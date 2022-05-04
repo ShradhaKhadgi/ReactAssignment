@@ -5,9 +5,9 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Home from "./componets/Home";
-import Login from "./componets/Login";
-import SignUp from "./componets/SignUp";
+import Home from "./components/Home";
+import Login from "./components/Login";
+import SignUp from "./components/SignUp";
 
 const App = () => {
   return (
