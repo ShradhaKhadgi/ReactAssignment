@@ -1,90 +1,74 @@
-@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap');
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: 'Oxygen', sans-serif;
 }
-
 html {
   font-size: 62.5%;
 }
-
 a {
   cursor: pointer;
   text-decoration: none !important;
   color: #333;
 }
-
-.btn {
+.btn{
   background-color: #4d05ac !important;
   color: #fff !important;
 }
-
 .account {
   width: 100vw !important;
   height: 100vh !important;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#b102ff), color-stop(#8e07e4), color-stop(#6d07c8), color-stop(#4d05ac), to(#2d0290));
   background-image: linear-gradient(to top, #b102ff, #8e07e4, #6d07c8, #4d05ac, #2d0290);
   background-size: cover;
 }
-
 .account_details {
   position: relative;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  h2 {
+    margin-bottom: -3rem;
+  }
 }
-
-.account_details h2 {
-  margin-bottom: -3rem;
-}
-
 input[type="text"],
 input[type="password"] {
   border: none;
   border-bottom: 2px solid #e8e8e8;
 }
-
-select {
+select{
   border: none !important;
   border-bottom: 2px solid #e8e8e8 !important;
 }
-
 .navbar-brand {
   font-size: 2.5rem !important;
 }
-
 .navbar-toggler {
   font-size: 1.5rem !important;
   border: none !important;
 }
-
-.navbar li {
-  padding: 0 2rem;
+.navbar {
+  li {
+    padding: 0 2rem;
+    a {
+      font-size: 1.7rem;
+      font-weight: lighter;
+    }
+  }
 }
-
-.navbar li a {
-  font-size: 1.7rem;
-  font-weight: lighter;
+.dropdown-menu{
+  li{
+    padding: 0.2rem;
+    a{
+      font-size: 1.4rem;
+    }
+  }
 }
-
-.dropdown-menu li {
-  padding: 0.2rem;
-}
-
-.dropdown-menu li a {
-  font-size: 1.4rem;
-}
-
-.c-body {
+.c-body{
   width: 100vw;
   height: auto;
   padding-top: 10rem;
   padding-bottom: 10rem;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(#b102ff), color-stop(#8e07e4), color-stop(#6d07c8), color-stop(#4d05ac), to(#2d0290));
   background-image: linear-gradient(to top, #b102ff, #8e07e4, #6d07c8, #4d05ac, #2d0290);
 }
-/*# sourceMappingURL=index.css.map */
